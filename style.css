@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+
+body{
+    /* background: linear-gradient(to bottom right, red , blue); */
+     /* background-color: lavender;  */
+    background-image: url("pngtree-blue-cartoon-round-big-tree-png-image_4587894-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed; 
+
+    /* this is called shorthand property */
+    /* background: lavender url("pngtree-blue-cartoon-round-big-tree-png-image_4587894-removebg-preview.png") no-repeat right top fixed; */
+   background: linear-gradient( to bottom, rgb(96, 169, 201), rgb(193, 238, 246)); 
+}
+
+/* p i b{
+    color: rgb(5, 5, 108);
+} */
+
+.art{
+    border: solid;
+    border-width: 5px;
+    border-color: rgb(19, 61, 101);
+    border-radius: 5px;
+    padding: 25px 50px;
+    width: 60vw;
+    box-sizing: content-box;
+    outline-style: solid;
+    outline-color: rgb(29, 165, 233);
+    outline-width: medium;
+    /* outline: medium solid rgb(29, 165, 233) ;   Shorthand property*/
+    outline-offset: 15px;
+    font-family: 'Figtree', sans-serif;
+    /* margin-top: 1px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 300px; */
+}
+.ytlink{
+    width: 40vw;
+}
+
+.headings{
+    text-align: center;
+      color: rgb(5, 5, 108);
+      /* color: white; */
+      text-shadow: 2px 2px 5px #000000;
+}
+.head2{
+    color: rgb(10, 34, 123);
+    text-align: center;
+}
+.content{
+    color: black;
+}
+.inside{
+    text-decoration: underline;
+    color: rgb(24, 24, 122);
+}
+ul.a{
+    list-style-type: square;
+}
+ .b ,.b td , .b th{
+    border: 1px solid ;
+  }
+  .b tr:hover {background-color: rgb(9, 86, 134);}
+  
+.image{
+    border: 5px solid rgb(25, 78, 128); 
+    outline-style: solid;
+}
+
+.container{
+    display: flex;
+}
+
